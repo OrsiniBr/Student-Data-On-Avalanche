@@ -1,7 +1,6 @@
 # Foundry-specific files
 cache/
 out/
-broadcast/
 .forge_snapshot
 
 # Environment files (never commit secrets!)
