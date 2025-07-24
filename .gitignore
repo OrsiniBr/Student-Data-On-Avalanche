@@ -1,0 +1,32 @@
+# Foundry-specific files
+cache/
+out/
+broadcast/
+.forge_snapshot
+
+# Environment files (never commit secrets!)
+.env
+.env.local
+.env.*.local
+
+# Dependencies (lib can be redownloaded)
+lib/
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Test coverage reports
+coverage/
+coverage.json
+
+# Build artifacts
+*.json
+!foundry.toml  # Keep this config file
+!remappings.txt  # Keep this file
+
+# Debug logs
+debug/
+*.log
